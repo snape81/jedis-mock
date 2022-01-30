@@ -111,4 +111,9 @@ public class PubSubTest {
             assertEquals(message, s2.getSubscriber().latestMessage());
         }
     }
+
+    @TestTemplate
+    public void whenSubscribedAfterPublishedMessagesAreReceivedOnce(Jedis jedis) throws Exception {
+
+    }
 }
