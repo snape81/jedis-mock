@@ -5,7 +5,7 @@
 
     <groupId>org.entando.test.tools</groupId>
     <artifactId>jedis-mock</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
     <name>jedis-mock</name>
     <description>In memory Redis mock for testing</description>
