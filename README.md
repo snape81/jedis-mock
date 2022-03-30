@@ -47,6 +47,14 @@ Add it as a dependency in Maven as:
     <artifactId>jedis-mock</artifactId>
     <version>1.0.0</version>
 ```
+Important check dependency convergence for
+```xml
+<dependency>
+<groupId>org.reflections</groupId>
+<artifactId>reflections</artifactId>
+<version>0.10.2</version>
+</dependency>
+```
 
 Create a Redis server and bind it to your client:
 
