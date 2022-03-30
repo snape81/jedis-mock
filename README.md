@@ -30,13 +30,22 @@ encourages developers to write more tests and run them more often.
 ## Quickstart 
 
 Add it as a dependency in Maven as:
-
 ```xml
-<dependency>
-  <groupId>com.github.fppt</groupId>
-  <artifactId>jedis-mock</artifactId>
-  <version>1.0.1</version>
-</dependency>
+        <repository>
+            <id>entando-tools</id>
+            <url>https://github.com/snape81/artifactory-repo/raw/repository</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+```
+```xml
+    <groupId>org.entando.test.tools</groupId>
+    <artifactId>jedis-mock</artifactId>
+    <version>1.0.0</version>
 ```
 
 Create a Redis server and bind it to your client:
