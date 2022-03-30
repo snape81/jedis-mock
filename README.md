@@ -33,7 +33,7 @@ Add it as a dependency in Maven as:
 ```xml
         <repository>
             <id>entando-tools</id>
-            <url>https://github.com/snape81/artifactory-repo/raw/repository</url>
+            <url>https://github.com/entando-ps/artifactory-repo/raw/repository</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
